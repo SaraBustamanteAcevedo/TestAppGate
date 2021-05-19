@@ -1,0 +1,21 @@
+  pipeline {
+    agent any
+    stages {
+        stage('Api Tests') {
+            steps {
+                sh 'mvn clean verify'
+            }
+        }
+        stage('Generate HTML report') {
+                cucumber buildStatus: 'UNSTABLE',
+                        reportTitle: 'My Api Test Report',
+                        fileIncludePattern: '**/*.json',
+                        trendsLimit: 10,
+            }
+        post {
+                always {
+                        emailext body: 'A Test EMail', recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']], subject: 'Test'
+                }
+        }
+    }
+ }

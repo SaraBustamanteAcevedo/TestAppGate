@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------
+Test set: runners.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 3.812 sec <<< FAILURE!
+Successful case to create a user(A user creation is required through the Api Rest #1)  Time elapsed: 2.283 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<403>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ?.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:9)
+
+Create a user without completed role information(A user creation is required through the Api Rest #1)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<403>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ?.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:15)
+
+Create a user without full name information(A user creation is required through the Api Rest #1)  Time elapsed: 0.09 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<403>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ?.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:21)
+
+Create user without information(A user creation is required through the Api Rest #1)  Time elapsed: 0.065 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<403>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ?.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:27)
+
+Create user with special characters as parameters(A user creation is required through the Api Rest #1)  Time elapsed: 0.037 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<403>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ?.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:33)
+
+Successful case to delete a user(Removal of a user via Api Rest is required)  Time elapsed: 0.084 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<204> but was:<403>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_deletion_is_displayed(Steps.java:71)
+	at ?.the successful deletion is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/delete_client.feature:9)
+
+Delete non-existent user(Removal of a user via Api Rest is required)  Time elapsed: 0.049 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<204> but was:<403>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_deletion_is_displayed(Steps.java:71)
+	at ?.the successful deletion is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/delete_client.feature:16)
+
+Successful case to enroll users(It is required to list the users through the rest api)  Time elapsed: 0.079 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_list_is_presented_successfully(Steps.java:89)
+	at ?.the list is presented successfully(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/list_client.feature:9)
+
+Successful case to find unique customer(A user creation is required through the Api Rest #2)  Time elapsed: 0.076 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_user_is_displayed_successfully(Steps.java:110)
+	at ?.the user is displayed successfully(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/unique_client.feature:9)
+
+Successful case to update a user(A user update is required through Api Rest)  Time elapsed: 0.057 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_update_is_displayed(Steps.java:134)
+	at ?.the successful update is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/update_client.feature:9)
+
+Update a non-existent user(A user update is required through Api Rest)  Time elapsed: 0.046 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_update_is_displayed(Steps.java:134)
+	at ?.the successful update is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/update_client.feature:16)
+
+(A user update is required through Api Rest)  Time elapsed: 0.04 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_update_is_displayed(Steps.java:134)
+	at ?.the successful update is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/update_client.feature:23)
+

@@ -1,0 +1,854 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-18T01:10:46.343Z",
+        "line": 6,
+        "name": "Successful case to create a user",
+        "description": "",
+        "id": "a-user-creation-is-required-through-the-api-rest;successful-case-to-create-a-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1438100000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "given that it is required to create a client",
+            "match": {
+              "location": "stepDefinitions.Steps.que_se_requiere_crear_un_cliente()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 587788000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the name Sara with automation role is sent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sara",
+                  "offset": 9
+                },
+                {
+                  "val": "automation",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c403\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)\n\tat ✽.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:9)\n",
+              "duration": 4404000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "successful registration is displayed",
+            "match": {
+              "location": "stepDefinitions.Steps.successful_registration_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateClient"
+          },
+          {
+            "name": "@SuccessfulCase"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-18T01:10:48.473Z",
+        "line": 12,
+        "name": "Create a user without completed role information",
+        "description": "",
+        "id": "a-user-creation-is-required-through-the-api-rest;create-a-user-without-completed-role-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8177000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "given that it is required to create a client",
+            "match": {
+              "location": "stepDefinitions.Steps.que_se_requiere_crear_un_cliente()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32367000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the name Sara with automation role is sent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sara",
+                  "offset": 9
+                },
+                {
+                  "val": "automation",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c403\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)\n\tat ✽.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:15)\n",
+              "duration": 472000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "successful registration is displayed",
+            "match": {
+              "location": "stepDefinitions.Steps.successful_registration_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateClient"
+          },
+          {
+            "name": "@SuccessfulCase"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-18T01:10:48.538Z",
+        "line": 18,
+        "name": "Create a user without full name information",
+        "description": "",
+        "id": "a-user-creation-is-required-through-the-api-rest;create-a-user-without-full-name-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10979000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "given that it is required to create a client",
+            "match": {
+              "location": "stepDefinitions.Steps.que_se_requiere_crear_un_cliente()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41817000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the name Sara with automation role is sent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sara",
+                  "offset": 9
+                },
+                {
+                  "val": "automation",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c403\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)\n\tat ✽.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:21)\n",
+              "duration": 446000,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "successful registration is displayed",
+            "match": {
+              "location": "stepDefinitions.Steps.successful_registration_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateClient"
+          },
+          {
+            "name": "@SuccessfulCase"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-18T01:10:48.620Z",
+        "line": 24,
+        "name": "Create user without information",
+        "description": "",
+        "id": "a-user-creation-is-required-through-the-api-rest;create-user-without-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8924000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "given that it is required to create a client",
+            "match": {
+              "location": "stepDefinitions.Steps.que_se_requiere_crear_un_cliente()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39804000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the name Sara with automation role is sent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sara",
+                  "offset": 9
+                },
+                {
+                  "val": "automation",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c403\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)\n\tat ✽.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:27)\n",
+              "duration": 410000,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "successful registration is displayed",
+            "match": {
+              "location": "stepDefinitions.Steps.successful_registration_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateClient"
+          },
+          {
+            "name": "@SuccessfulCase"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-18T01:10:48.676Z",
+        "line": 30,
+        "name": "Create user with special characters as parameters",
+        "description": "",
+        "id": "a-user-creation-is-required-through-the-api-rest;create-user-with-special-characters-as-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9234000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "given that it is required to create a client",
+            "match": {
+              "location": "stepDefinitions.Steps.que_se_requiere_crear_un_cliente()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23376000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the name Sara with automation role is sent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sara",
+                  "offset": 9
+                },
+                {
+                  "val": "automation",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c403\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)\n\tat ✽.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:33)\n",
+              "duration": 398000,
+              "status": "failed"
+            },
+            "line": 33,
+            "name": "successful registration is displayed",
+            "match": {
+              "location": "stepDefinitions.Steps.successful_registration_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateClient"
+          },
+          {
+            "name": "@SuccessfulCase"
+          }
+        ]
+      }
+    ],
+    "name": "A user creation is required through the Api Rest",
+    "description": "",
+    "id": "a-user-creation-is-required-through-the-api-rest",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/create_client.feature",
+    "tags": [
+      {
+        "name": "@CreateClient",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-18T01:10:48.720Z",
+        "line": 6,
+        "name": "Successful case to delete a user",
+        "description": "",
+        "id": "removal-of-a-user-via-api-rest-is-required;successful-case-to-delete-a-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10802000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "given that it is required to delete a client",
+            "match": {
+              "location": "stepDefinitions.Steps.given_that_it_is_required_to_delete_a_client()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61145000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the delete is executed",
+            "match": {
+              "location": "stepDefinitions.Steps.the_delete_is_executed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c204\u003e but was:\u003c403\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepDefinitions.Steps.the_successful_deletion_is_displayed(Steps.java:71)\n\tat ✽.the successful deletion is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/delete_client.feature:9)\n",
+              "duration": 1744000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the successful deletion is displayed",
+            "match": {
+              "location": "stepDefinitions.Steps.the_successful_deletion_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteClient"
+          },
+          {
+            "name": "@SuccessfulCase"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-18T01:10:48.807Z",
+        "line": 12,
+        "name": "Delete non-existent user",
+        "description": "",
+        "id": "removal-of-a-user-via-api-rest-is-required;delete-non-existent-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6353000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "given that it is required to delete a client",
+            "match": {
+              "location": "stepDefinitions.Steps.given_that_it_is_required_to_delete_a_client()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27652000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the delete is executed",
+            "match": {
+              "location": "stepDefinitions.Steps.the_delete_is_executed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c204\u003e but was:\u003c403\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepDefinitions.Steps.the_successful_deletion_is_displayed(Steps.java:71)\n\tat ✽.the successful deletion is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/delete_client.feature:16)\n",
+              "duration": 1094000,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "the successful deletion is displayed",
+            "match": {
+              "location": "stepDefinitions.Steps.the_successful_deletion_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteClient"
+          },
+          {
+            "name": "@SuccessfulCase"
+          }
+        ]
+      }
+    ],
+    "name": "Removal of a user via Api Rest is required",
+    "description": "",
+    "id": "removal-of-a-user-via-api-rest-is-required",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/delete_client.feature",
+    "tags": [
+      {
+        "name": "@DeleteClient",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-18T01:10:48.860Z",
+        "line": 6,
+        "name": "Successful case to enroll users",
+        "description": "",
+        "id": "it-is-required-to-list-the-users-through-the-rest-api;successful-case-to-enroll-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10360000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that it is required to enroll users",
+            "match": {
+              "location": "stepDefinitions.Steps.that_it_is_required_to_enroll_users()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42033000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "searching for the list user",
+            "match": {
+              "location": "stepDefinitions.Steps.searching_for_the_list_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c403\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepDefinitions.Steps.the_list_is_presented_successfully(Steps.java:89)\n\tat ✽.the list is presented successfully(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/list_client.feature:9)\n",
+              "duration": 1111000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the list is presented successfully",
+            "match": {
+              "location": "stepDefinitions.Steps.the_list_is_presented_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ListClient"
+          },
+          {
+            "name": "@SuccessfulCase"
+          }
+        ]
+      }
+    ],
+    "name": "It is required to list the users through the rest api",
+    "description": "",
+    "id": "it-is-required-to-list-the-users-through-the-rest-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/list_client.feature",
+    "tags": [
+      {
+        "name": "@ListClient",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-18T01:10:48.935Z",
+        "line": 6,
+        "name": "Successful case to find unique customer",
+        "description": "",
+        "id": "a-user-creation-is-required-through-the-api-rest;successful-case-to-find-unique-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8442000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that it is required to search for a unique client",
+            "match": {
+              "location": "stepDefinitions.Steps.that_it_is_required_to_search_for_a_unique_client()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44512000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user query is made",
+            "match": {
+              "location": "stepDefinitions.Steps.the_user_query_is_made()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c403\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepDefinitions.Steps.the_user_is_displayed_successfully(Steps.java:110)\n\tat ✽.the user is displayed successfully(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/unique_client.feature:9)\n",
+              "duration": 616000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the user is displayed successfully",
+            "match": {
+              "location": "stepDefinitions.Steps.the_user_is_displayed_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UniqueClient"
+          },
+          {
+            "name": "@SuccessfulCase"
+          }
+        ]
+      }
+    ],
+    "name": "A user creation is required through the Api Rest",
+    "description": "",
+    "id": "a-user-creation-is-required-through-the-api-rest",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/unique_client.feature",
+    "tags": [
+      {
+        "name": "@UniqueClient",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-18T01:10:49.001Z",
+        "line": 6,
+        "name": "Successful case to update a user",
+        "description": "",
+        "id": "a-user-update-is-required-through-api-rest;successful-case-to-update-a-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6902000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "given that it is required to update a client",
+            "match": {
+              "location": "stepDefinitions.Steps.given_that_it_is_required_to_update_a_client()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26462000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the name Sara with automation role is used",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sara",
+                  "offset": 9
+                },
+                {
+                  "val": "automation",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.Steps.the_name_Sara_with_automation_role_is_used(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c403\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepDefinitions.Steps.the_successful_update_is_displayed(Steps.java:134)\n\tat ✽.the successful update is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/update_client.feature:9)\n",
+              "duration": 1763000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the successful update is displayed",
+            "match": {
+              "location": "stepDefinitions.Steps.the_successful_update_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UpdateClient"
+          },
+          {
+            "name": "@SuccessfulCase"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-18T01:10:49.072Z",
+        "line": 12,
+        "name": "Update a non-existent user",
+        "description": "",
+        "id": "a-user-update-is-required-through-api-rest;update-a-non-existent-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11486000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "given that it is required to update a client",
+            "match": {
+              "location": "stepDefinitions.Steps.given_that_it_is_required_to_update_a_client()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24215000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the name Sara with automation role is sent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sara",
+                  "offset": 9
+                },
+                {
+                  "val": "automation",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c403\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepDefinitions.Steps.the_successful_update_is_displayed(Steps.java:134)\n\tat ✽.the successful update is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/update_client.feature:16)\n",
+              "duration": 328000,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "the successful update is displayed",
+            "match": {
+              "location": "stepDefinitions.Steps.the_successful_update_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UpdateClient"
+          },
+          {
+            "name": "@SuccessfulCase"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-18T01:10:49.118Z",
+        "line": 18,
+        "name": "",
+        "description": "  Update with incomplete data",
+        "id": "a-user-update-is-required-through-api-rest;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4509000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "given that it is required to update a client",
+            "match": {
+              "location": "stepDefinitions.Steps.given_that_it_is_required_to_update_a_client()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23587000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the name Sara with automation role is sent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sara",
+                  "offset": 9
+                },
+                {
+                  "val": "automation",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c403\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat stepDefinitions.Steps.the_successful_update_is_displayed(Steps.java:134)\n\tat ✽.the successful update is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/update_client.feature:23)\n",
+              "duration": 420000,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "the successful update is displayed",
+            "match": {
+              "location": "stepDefinitions.Steps.the_successful_update_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UpdateClient"
+          },
+          {
+            "name": "@SuccessfulCase"
+          }
+        ]
+      }
+    ],
+    "name": "A user update is required through Api Rest",
+    "description": "",
+    "id": "a-user-update-is-required-through-api-rest",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/update_client.feature",
+    "tags": [
+      {
+        "name": "@UpdateClient",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="12" name="runners.RunnerTest" time="2.925" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.10+9-LTS"/>
+    <property name="sun.boot.library.path" value="/Users/sarabustamante/Library/Java/JavaVirtualMachines/corretto-11.0.10/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sarabustamante/Downloads/AppGateTest"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/sarabustamante/Downloads/AppGateTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.10+9-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/bf/yy1tdm0d439bczv2sgk7hcyr0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sarabustamante/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
+    <property name="user.home" value="/Users/sarabustamante"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="sarabustamante"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.home" value="/Users/sarabustamante/Library/Java/JavaVirtualMachines/corretto-11.0.10/Contents/Home"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Corretto-11.0.10.9.1"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="A user creation is required through the Api Rest #1" name="Successful case to create a user" time="2.283">
+    <failure message="expected:&lt;400&gt; but was:&lt;403&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ✽.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:9)
+</failure>
+    <system-out>
+@CreateClient @SuccessfulCase
+Scenario: Successful case to create a user           &amp;#27;[90m# src/test/resources/feature/create_client.feature:6&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mgiven that it is required to create a client&amp;#27;[0m &amp;#27;[90m# stepDefinitions.Steps.que_se_requiere_crear_un_cliente()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe name &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSara&amp;#27;[0m&amp;#27;[32m with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mautomation&amp;#27;[0m&amp;#27;[32m role is sent&amp;#27;[0m    &amp;#27;[90m# stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31msuccessful registration is displayed&amp;#27;[0m          &amp;#27;[90m# stepDefinitions.Steps.successful_registration_is_displayed()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;400&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ���.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:9)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="A user creation is required through the Api Rest #1" name="Create a user without completed role information" time="0.019">
+    <failure message="expected:&lt;400&gt; but was:&lt;403&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ✽.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:15)
+</failure>
+    <system-out>
+@CreateClient @SuccessfulCase
+Scenario: Create a user without completed role information &amp;#27;[90m# src/test/resources/feature/create_client.feature:12&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mgiven that it is required to create a client&amp;#27;[0m       &amp;#27;[90m# stepDefinitions.Steps.que_se_requiere_crear_un_cliente()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe name &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSara&amp;#27;[0m&amp;#27;[32m with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mautomation&amp;#27;[0m&amp;#27;[32m role is sent&amp;#27;[0m          &amp;#27;[90m# stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31msuccessful registration is displayed&amp;#27;[0m                &amp;#27;[90m# stepDefinitions.Steps.successful_registration_is_displayed()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;400&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ���.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:15)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="A user creation is required through the Api Rest #1" name="Create a user without full name information" time="0.09">
+    <failure message="expected:&lt;400&gt; but was:&lt;403&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ✽.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:21)
+</failure>
+    <system-out>
+@CreateClient @SuccessfulCase
+Scenario: Create a user without full name information &amp;#27;[90m# src/test/resources/feature/create_client.feature:18&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mgiven that it is required to create a client&amp;#27;[0m  &amp;#27;[90m# stepDefinitions.Steps.que_se_requiere_crear_un_cliente()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe name &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSara&amp;#27;[0m&amp;#27;[32m with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mautomation&amp;#27;[0m&amp;#27;[32m role is sent&amp;#27;[0m     &amp;#27;[90m# stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31msuccessful registration is displayed&amp;#27;[0m           &amp;#27;[90m# stepDefinitions.Steps.successful_registration_is_displayed()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;400&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ���.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:21)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="A user creation is required through the Api Rest #1" name="Create user without information" time="0.065">
+    <failure message="expected:&lt;400&gt; but was:&lt;403&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ✽.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:27)
+</failure>
+    <system-out>
+@CreateClient @SuccessfulCase
+Scenario: Create user without information            &amp;#27;[90m# src/test/resources/feature/create_client.feature:24&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mgiven that it is required to create a client&amp;#27;[0m &amp;#27;[90m# stepDefinitions.Steps.que_se_requiere_crear_un_cliente()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe name &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSara&amp;#27;[0m&amp;#27;[32m with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mautomation&amp;#27;[0m&amp;#27;[32m role is sent&amp;#27;[0m    &amp;#27;[90m# stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31msuccessful registration is displayed&amp;#27;[0m          &amp;#27;[90m# stepDefinitions.Steps.successful_registration_is_displayed()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;400&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ���.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:27)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="A user creation is required through the Api Rest #1" name="Create user with special characters as parameters" time="0.037">
+    <failure message="expected:&lt;400&gt; but was:&lt;403&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ✽.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:33)
+</failure>
+    <system-out>
+@CreateClient @SuccessfulCase
+Scenario: Create user with special characters as parameters &amp;#27;[90m# src/test/resources/feature/create_client.feature:30&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mgiven that it is required to create a client&amp;#27;[0m        &amp;#27;[90m# stepDefinitions.Steps.que_se_requiere_crear_un_cliente()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe name &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSara&amp;#27;[0m&amp;#27;[32m with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mautomation&amp;#27;[0m&amp;#27;[32m role is sent&amp;#27;[0m           &amp;#27;[90m# stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31msuccessful registration is displayed&amp;#27;[0m                 &amp;#27;[90m# stepDefinitions.Steps.successful_registration_is_displayed()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;400&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.successful_registration_is_displayed(Steps.java:53)
+	at ���.successful registration is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/create_client.feature:33)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Removal of a user via Api Rest is required" name="Successful case to delete a user" time="0.084">
+    <failure message="expected:&lt;204&gt; but was:&lt;403&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;204&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_deletion_is_displayed(Steps.java:71)
+	at ✽.the successful deletion is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/delete_client.feature:9)
+</failure>
+    <system-out>
+@DeleteClient @SuccessfulCase
+Scenario: Successful case to delete a user           &amp;#27;[90m# src/test/resources/feature/delete_client.feature:6&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mgiven that it is required to delete a client&amp;#27;[0m &amp;#27;[90m# stepDefinitions.Steps.given_that_it_is_required_to_delete_a_client()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe delete is executed&amp;#27;[0m                        &amp;#27;[90m# stepDefinitions.Steps.the_delete_is_executed()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mthe successful deletion is displayed&amp;#27;[0m          &amp;#27;[90m# stepDefinitions.Steps.the_successful_deletion_is_displayed()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;204&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_deletion_is_displayed(Steps.java:71)
+	at ���.the successful deletion is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/delete_client.feature:9)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Removal of a user via Api Rest is required" name="Delete non-existent user" time="0.049">
+    <failure message="expected:&lt;204&gt; but was:&lt;403&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;204&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_deletion_is_displayed(Steps.java:71)
+	at ✽.the successful deletion is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/delete_client.feature:16)
+</failure>
+    <system-out>
+@DeleteClient @SuccessfulCase
+Scenario: Delete non-existent user                   &amp;#27;[90m# src/test/resources/feature/delete_client.feature:12&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mgiven that it is required to delete a client&amp;#27;[0m &amp;#27;[90m# stepDefinitions.Steps.given_that_it_is_required_to_delete_a_client()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe delete is executed&amp;#27;[0m                        &amp;#27;[90m# stepDefinitions.Steps.the_delete_is_executed()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mthe successful deletion is displayed&amp;#27;[0m          &amp;#27;[90m# stepDefinitions.Steps.the_successful_deletion_is_displayed()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;204&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_deletion_is_displayed(Steps.java:71)
+	at ���.the successful deletion is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/delete_client.feature:16)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="It is required to list the users through the rest api" name="Successful case to enroll users" time="0.079">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_list_is_presented_successfully(Steps.java:89)
+	at ✽.the list is presented successfully(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/list_client.feature:9)
+</failure>
+    <system-out>
+@ListClient @SuccessfulCase
+Scenario: Successful case to enroll users   &amp;#27;[90m# src/test/resources/feature/list_client.feature:6&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mthat it is required to enroll users&amp;#27;[0m &amp;#27;[90m# stepDefinitions.Steps.that_it_is_required_to_enroll_users()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32msearching for the list user&amp;#27;[0m          &amp;#27;[90m# stepDefinitions.Steps.searching_for_the_list_user()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mthe list is presented successfully&amp;#27;[0m   &amp;#27;[90m# stepDefinitions.Steps.the_list_is_presented_successfully()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_list_is_presented_successfully(Steps.java:89)
+	at ���.the list is presented successfully(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/list_client.feature:9)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="A user creation is required through the Api Rest #2" name="Successful case to find unique customer" time="0.076">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_user_is_displayed_successfully(Steps.java:110)
+	at ✽.the user is displayed successfully(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/unique_client.feature:9)
+</failure>
+    <system-out>
+@UniqueClient @SuccessfulCase
+Scenario: Successful case to find unique customer         &amp;#27;[90m# src/test/resources/feature/unique_client.feature:6&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mthat it is required to search for a unique client&amp;#27;[0m &amp;#27;[90m# stepDefinitions.Steps.that_it_is_required_to_search_for_a_unique_client()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe user query is made&amp;#27;[0m                             &amp;#27;[90m# stepDefinitions.Steps.the_user_query_is_made()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mthe user is displayed successfully&amp;#27;[0m                 &amp;#27;[90m# stepDefinitions.Steps.the_user_is_displayed_successfully()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_user_is_displayed_successfully(Steps.java:110)
+	at ���.the user is displayed successfully(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/unique_client.feature:9)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="A user update is required through Api Rest" name="Successful case to update a user" time="0.057">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_update_is_displayed(Steps.java:134)
+	at ✽.the successful update is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/update_client.feature:9)
+</failure>
+    <system-out>
+@UpdateClient @SuccessfulCase
+Scenario: Successful case to update a user           &amp;#27;[90m# src/test/resources/feature/update_client.feature:6&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mgiven that it is required to update a client&amp;#27;[0m &amp;#27;[90m# stepDefinitions.Steps.given_that_it_is_required_to_update_a_client()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe name &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSara&amp;#27;[0m&amp;#27;[32m with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mautomation&amp;#27;[0m&amp;#27;[32m role is used&amp;#27;[0m    &amp;#27;[90m# stepDefinitions.Steps.the_name_Sara_with_automation_role_is_used(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mthe successful update is displayed&amp;#27;[0m            &amp;#27;[90m# stepDefinitions.Steps.the_successful_update_is_displayed()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_update_is_displayed(Steps.java:134)
+	at ���.the successful update is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/update_client.feature:9)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="A user update is required through Api Rest" name="Update a non-existent user" time="0.046">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_update_is_displayed(Steps.java:134)
+	at ✽.the successful update is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/update_client.feature:16)
+</failure>
+    <system-out>
+@UpdateClient @SuccessfulCase
+Scenario: Update a non-existent user                 &amp;#27;[90m# src/test/resources/feature/update_client.feature:12&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mgiven that it is required to update a client&amp;#27;[0m &amp;#27;[90m# stepDefinitions.Steps.given_that_it_is_required_to_update_a_client()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe name &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSara&amp;#27;[0m&amp;#27;[32m with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mautomation&amp;#27;[0m&amp;#27;[32m role is sent&amp;#27;[0m    &amp;#27;[90m# stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mthe successful update is displayed&amp;#27;[0m            &amp;#27;[90m# stepDefinitions.Steps.the_successful_update_is_displayed()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_update_is_displayed(Steps.java:134)
+	at ���.the successful update is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/update_client.feature:16)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="(A user update is required through Api Rest)" name="(A user update is required through Api Rest)" time="0.04">
+    <failure message="expected:&lt;200&gt; but was:&lt;403&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_update_is_displayed(Steps.java:134)
+	at ✽.the successful update is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/update_client.feature:23)
+</failure>
+    <system-out>
+@UpdateClient @SuccessfulCase
+Scenario:                                            &amp;#27;[90m# src/test/resources/feature/update_client.feature:18&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mgiven that it is required to update a client&amp;#27;[0m &amp;#27;[90m# stepDefinitions.Steps.given_that_it_is_required_to_update_a_client()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mthe name &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSara&amp;#27;[0m&amp;#27;[32m with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mautomation&amp;#27;[0m&amp;#27;[32m role is sent&amp;#27;[0m    &amp;#27;[90m# stepDefinitions.Steps.se_envien_el_nombre_Sara(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mthe successful update is displayed&amp;#27;[0m            &amp;#27;[90m# stepDefinitions.Steps.the_successful_update_is_displayed()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;200&gt; but was:&lt;403&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.Steps.the_successful_update_is_displayed(Steps.java:134)
+	at ���.the successful update is displayed(file:///Users/sarabustamante/Downloads/AppGateTest/src/test/resources/feature/update_client.feature:23)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>

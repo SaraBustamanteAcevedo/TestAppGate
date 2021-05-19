@@ -1,0 +1,53 @@
+
+s
+java:S1192e"QDefine a constant instead of duplicating this literal "application/json" 5 times.(Ωπϊÿÿÿÿ8¨ΐξε—/
+f
+java:S1192?"IDefine a constant instead of duplicating this literal "/users/2" 6 times.(φΓι8¨ΐξε—/
+o
+java:S1192e"MDefine a constant instead of duplicating this literal "Content-Type" 5 times.(Ωπϊÿÿÿÿ8¨ΐξε—/
+g	java:S112c"FDefine and throw a dedicated exception instead of using a generic one.(»ά°όÿÿÿÿ8¨ΐξε—/
+a	java:S112j"FDefine and throw a dedicated exception instead of using a generic one.(½Χ8¨ΐξε—/
+g	java:S112s"FDefine and throw a dedicated exception instead of using a generic one.(ίΆδώÿÿÿÿ8¨ΐξε—/
+g	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(›όΒ®ÿÿÿÿÿ8¨ΐξε—/
+h	java:S112€"FDefine and throw a dedicated exception instead of using a generic one.(ύϋ‘ωÿÿÿÿ8¨ΐξε—/
+c	java:S112…"FDefine and throw a dedicated exception instead of using a generic one.(“‘γά8¨ΐξε—/
+h	java:S112‹"FDefine and throw a dedicated exception instead of using a generic one.(—αΆέόÿÿÿÿ8¨ΐξε—/
+c	java:S112‘"FDefine and throw a dedicated exception instead of using a generic one.(ΩƒΞ›8¨ΐξε—/
+h	java:S112—"FDefine and throw a dedicated exception instead of using a generic one.(¶ϋ¦ÿÿÿÿÿ8¨ΐξε—/
+c	java:S112΅"FDefine and throw a dedicated exception instead of using a generic one.(ªΑ…8¨ΐξε—/
+h	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(‘†Ώϋÿÿÿÿ8¨ΐξε—/
+c	java:S112¬"FDefine and throw a dedicated exception instead of using a generic one.(―α·³8¨ΐξε—/
+h	java:S112¶"FDefine and throw a dedicated exception instead of using a generic one.(³„…ÿÿÿÿÿ8¨ΐξε—/
+c	java:S112»"FDefine and throw a dedicated exception instead of using a generic one.(ή ¨™8¨ΐξε—/
+c	java:S112Δ"FDefine and throw a dedicated exception instead of using a generic one.(υ”π8¨ΐξε—/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…¨ΰέωÿÿÿÿ8¨ΐξε—/
+]	java:S125)"<This block of commented-out lines of code should be removed.(ΝΎ£ÿÿÿÿÿ8¨ΐξε—/
+o	java:S100c"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ά°όÿÿÿÿ8¨ΐξε—/
+i	java:S100j"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Χ8¨ΐξε—/
+X
+java:S2696n"6Make the enclosing method "static" or remove this set.(ΥξΖύψÿÿÿÿ8¨ΐξε—/
+o	java:S100s"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ίΆδώÿÿÿÿ8¨ΐξε—/
+o	java:S100z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›όΒ®ÿÿÿÿÿ8¨ΐξε—/
+p	java:S100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ύϋ‘ωÿÿÿÿ8¨ΐξε—/
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(–§΅$8¨ΐξε—/
+k	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“‘γά8¨ΐξε—/
+p	java:S100‹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—αΆέόÿÿÿÿ8¨ΐξε—/
+k	java:S100‘"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΩƒΞ›8¨ΐξε—/
+Y
+java:S2696“"6Make the enclosing method "static" or remove this set.(ªυτόÿÿÿÿ8¨ΐξε—/
+p	java:S100—"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ϋ¦ÿÿÿÿÿ8¨ΐξε—/
+k	java:S100΅"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªΑ…8¨ΐξε—/
+p	java:S100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘†Ώϋÿÿÿÿ8¨ΐξε—/
+S
+java:S2696¨"6Make the enclosing method "static" or remove this set.(–§΅$8¨ΐξε—/
+k	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(―α·³8¨ΐξε—/
+p	java:S100¶"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³„…ÿÿÿÿÿ8¨ΐξε—/
+k	java:S100»"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ή ¨™8¨ΐξε—/
+T
+java:S2696ΐ"6Make the enclosing method "static" or remove this set.(βΖί8¨ΐξε—/
+k	java:S100Δ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(υ”π8¨ΐξε—/
+L
+java:S1068"/Remove this unused "requestSpec" private field.(Τ»α8¨ΐξε—/
+K
+java:S1068".Remove this unused "jsonString" private field.(Τ΅ό…8¨ΐξε—/
